@@ -1,0 +1,17 @@
+D:\study-ms\udemy-kafka\labs\src\SM-Post\Post.Cmd\Post.Cmd.Domain\bin\Debug\net8.0\Post.Cmd.Domain.deps.json
+D:\study-ms\udemy-kafka\labs\src\SM-Post\Post.Cmd\Post.Cmd.Domain\bin\Debug\net8.0\Post.Cmd.Domain.dll
+D:\study-ms\udemy-kafka\labs\src\SM-Post\Post.Cmd\Post.Cmd.Domain\bin\Debug\net8.0\Post.Cmd.Domain.pdb
+D:\study-ms\udemy-kafka\labs\src\SM-Post\Post.Cmd\Post.Cmd.Domain\bin\Debug\net8.0\CQRS.Core.dll
+D:\study-ms\udemy-kafka\labs\src\SM-Post\Post.Cmd\Post.Cmd.Domain\bin\Debug\net8.0\Post.Common.dll
+D:\study-ms\udemy-kafka\labs\src\SM-Post\Post.Cmd\Post.Cmd.Domain\bin\Debug\net8.0\CQRS.Core.pdb
+D:\study-ms\udemy-kafka\labs\src\SM-Post\Post.Cmd\Post.Cmd.Domain\bin\Debug\net8.0\Post.Common.pdb
+D:\study-ms\udemy-kafka\labs\src\SM-Post\Post.Cmd\Post.Cmd.Domain\obj\Debug\net8.0\Post.Cmd.Domain.csproj.AssemblyReference.cache
+D:\study-ms\udemy-kafka\labs\src\SM-Post\Post.Cmd\Post.Cmd.Domain\obj\Debug\net8.0\Post.Cmd.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\study-ms\udemy-kafka\labs\src\SM-Post\Post.Cmd\Post.Cmd.Domain\obj\Debug\net8.0\Post.Cmd.Domain.AssemblyInfoInputs.cache
+D:\study-ms\udemy-kafka\labs\src\SM-Post\Post.Cmd\Post.Cmd.Domain\obj\Debug\net8.0\Post.Cmd.Domain.AssemblyInfo.cs
+D:\study-ms\udemy-kafka\labs\src\SM-Post\Post.Cmd\Post.Cmd.Domain\obj\Debug\net8.0\Post.Cmd.Domain.csproj.CoreCompileInputs.cache
+D:\study-ms\udemy-kafka\labs\src\SM-Post\Post.Cmd\Post.Cmd.Domain\obj\Debug\net8.0\Post.Cmd.1A443DE5.Up2Date
+D:\study-ms\udemy-kafka\labs\src\SM-Post\Post.Cmd\Post.Cmd.Domain\obj\Debug\net8.0\Post.Cmd.Domain.dll
+D:\study-ms\udemy-kafka\labs\src\SM-Post\Post.Cmd\Post.Cmd.Domain\obj\Debug\net8.0\refint\Post.Cmd.Domain.dll
+D:\study-ms\udemy-kafka\labs\src\SM-Post\Post.Cmd\Post.Cmd.Domain\obj\Debug\net8.0\Post.Cmd.Domain.pdb
+D:\study-ms\udemy-kafka\labs\src\SM-Post\Post.Cmd\Post.Cmd.Domain\obj\Debug\net8.0\ref\Post.Cmd.Domain.dll
