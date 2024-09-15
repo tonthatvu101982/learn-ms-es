@@ -2,7 +2,7 @@
 
 namespace Post.Common.Events
 {
-    internal class MessageUpdatedEvent : BaseEvent
+    public class MessageUpdatedEvent : BaseEvent
     {
         public MessageUpdatedEvent(): base(nameof(MessageUpdatedEvent))
         {
