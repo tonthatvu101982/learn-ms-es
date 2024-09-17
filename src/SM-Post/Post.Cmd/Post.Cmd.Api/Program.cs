@@ -2,11 +2,13 @@ using Confluent.Kafka;
 using CQRS.Core.Domains;
 using CQRS.Core.Handlers;
 using CQRS.Core.Infrastructure;
+using CQRS.Core.Producers;
 using Post.Cmd.Api.Commands;
 using Post.Cmd.Domain.Aggregates;
 using Post.Cmd.Infrastrusture.Config;
 using Post.Cmd.Infrastrusture.Dispatchers;
 using Post.Cmd.Infrastrusture.Handler;
+using Post.Cmd.Infrastrusture.Producer;
 using Post.Cmd.Infrastrusture.Repositories;
 using Post.Cmd.Infrastrusture.Stores;
 
@@ -30,6 +32,7 @@ internal class Program
         builder.Services.AddScoped<IEventStore, EventStore>();
         builder.Services.AddScoped<IEventSourceHandler<PostAggregate>, EventSourcingHandler>();
         builder.Services.AddScoped<ICommandHadler, CommandHandler>();
+        builder.Services.AddScoped<IEventProducer, EventProducer>();
 
         var commandHandler = builder.Services.BuildServiceProvider().GetRequiredService<ICommandHadler>();
 
