@@ -19,4 +19,5 @@ public class CommentEntity
 
     [System.Text.Json.Serialization.JsonIgnore]
     public virtual PostEntity Post { get; set; }
+    public string Comment { get; set; }
 }
