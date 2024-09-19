@@ -38,7 +38,8 @@ public class PostRepository : IPostRepository
     public async Task<PostEntity> GetByIdAsync(Guid postId)
     {
         using var dbContext = _databaseContextFactory.CreateDbContext();
-        return await dbContext.Posts.Include(p => p.Comments).FirstOrDefaultAsync(x => x.PostId == postId);
+        var postEntity =  await dbContext.Posts.Include(p => p.Comments).FirstOrDefaultAsync(x => x.PostId == postId);
+        return postEntity;
     }
 
     public async Task<List<PostEntity>> ListAllAsync()

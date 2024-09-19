@@ -1,8 +1,10 @@
 using Confluent.Kafka;
 using CQRS.Core.Domains;
+using CQRS.Core.Events;
 using CQRS.Core.Handlers;
 using CQRS.Core.Infrastructure;
 using CQRS.Core.Producers;
+using MongoDB.Bson.Serialization;
 using Post.Cmd.Api.Commands;
 using Post.Cmd.Domain.Aggregates;
 using Post.Cmd.Infrastrusture.Config;
@@ -11,13 +13,20 @@ using Post.Cmd.Infrastrusture.Handler;
 using Post.Cmd.Infrastrusture.Producer;
 using Post.Cmd.Infrastrusture.Repositories;
 using Post.Cmd.Infrastrusture.Stores;
+using Post.Common.Events;
 
 internal class Program
 {
     private static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
-
+        BsonClassMap.RegisterClassMap<BaseEvent>();
+        BsonClassMap.RegisterClassMap<PostCreatedEvent>();
+        BsonClassMap.RegisterClassMap<MessageUpdatedEvent>();
+        BsonClassMap.RegisterClassMap<PostLikedEvent>();
+        BsonClassMap.RegisterClassMap<CommentAddedEvent>();
+        BsonClassMap.RegisterClassMap<CommentRemoveEvent>();
+        BsonClassMap.RegisterClassMap<PostRemoveEvent>();
         // Add services to the container.
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services
